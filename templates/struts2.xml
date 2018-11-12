@@ -1,0 +1,8 @@
+<templateSet group="struts2">
+  <template name="act" value="public String $methodName$() {&#10;    $END$&#10;    return SUCCESS;&#10;}" description="new action" toReformat="false" toShortenFQNames="true">
+    <variable name="methodName" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

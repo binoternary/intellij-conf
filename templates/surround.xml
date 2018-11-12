@@ -1,0 +1,12 @@
+<templateSet group="surround">
+  <template name="EQ" value="\&quot;$SELECTION$\&quot;" description="Surround with escaped quotes" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STRING" value="true" />
+    </context>
+  </template>
+  <template name="NN" value="Objects.requireNonNull($SELECTION$)" description="Objects::requireNonNull" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="RegExp" injector-id="xml">
+      <display-name>property/@value</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("value")).withParent(xmlTag().withLocalName(string().equalTo("property")).withNamespace(string().equalTo("http://www.puppycrawl.com/dtds/configuration_1_3.dtd")))]]></place>
+    </injection>
+  </component>
+</application>

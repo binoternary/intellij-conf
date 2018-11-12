@@ -1,0 +1,7 @@
+<templateSet group="Kotlin">
+  <template name="St" value="String" description="String" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

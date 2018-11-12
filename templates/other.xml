@@ -1,0 +1,13 @@
+<templateSet group="other">
+  <template name="d0" value="int x = 1 / 0;" description="Division by zero" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="log" value="private static final Logger log = LoggerFactory.getLogger($CURRENT_CLASS$.class);" description="Declare logger" toReformat="false" toShortenFQNames="true">
+    <variable name="CURRENT_CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
